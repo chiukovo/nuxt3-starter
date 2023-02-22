@@ -1,6 +1,7 @@
 export default defineNuxtConfig({
     modules: [
-      '@nuxt/content'
+      '@nuxt/content',
+      '@pinia/nuxt'
     ],
     // auto import components
     components: true,
