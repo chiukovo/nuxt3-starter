@@ -26,7 +26,6 @@ export default defineNuxtConfig({
       layoutTransition: { name: 'layout', mode: 'out-in' },
     },
     modules: [
-      '@nuxt/content',
       '@vueuse/nuxt',
       '@pinia/nuxt',
     ],
